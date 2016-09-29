@@ -29,4 +29,5 @@
          payload-string (json/write-str payload)
          queue (:queue payload)
          queue-string (str "queue:" queue)]
+     (wcar* (car/sadd "queues" queue))
      (wcar* (car/lpush queue-string payload-string)))))
