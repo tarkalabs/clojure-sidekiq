@@ -6,7 +6,7 @@ Installation
 ------------
 
 ```clojure
-[clojure-sidekiq 0.1.0]
+[clojure-sidekiq "0.1.0"]
 ```
 
 ## Usage
